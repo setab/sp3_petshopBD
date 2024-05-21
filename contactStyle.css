@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #111215;
+  color: #f2f7fc;
+}
+.main {
+  display: grid;
+  justify-items: center;
+}
+.navbar {
+  width: 70%;
+  height: 100px;
+  display: grid;
+  border: 2px solid white;
+}
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.items {
+  display: grid;
+  justify-content: end;
+}
+.items ul {
+  display: flex;
+  justify-content: center;
+}
+.items ul li {
+  margin: 20px 30px;
+  list-style-type: none;
+}
+.items ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  transition: 0.3s;
+}
+.items ul li a:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+
+/* contact sections */
+.contact-banner {
+  /* border: 2px solid white; */
+  width: 70%;
+  height: 800px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.contact-banner .contact h1 {
+  /* border: 2px solid white; */
+  /* padding: 300px; */
+  font-size: 52px;
+  margin-bottom: 60px;
+}
+.contact-banner .contact .inputbox {
+  /* border: 2px solid white; */
+  /* padding: 300px; */
+  width: 600px;
+  height: 250px;
+}
+.contact-banner .contact .inputbox .message {
+  padding: 30px 30px 50px 10px;
+}
+
+.contact-banner .contact input {
+  /* border: 2px solid white; */
+  /* padding: 300px; */
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid white;
+  color: #f2f7fc;
+}
+
+.contact-banner .contact button {
+  margin-top: 15px;
+  padding: 10px 30px;
+  border: 1px solid white;
+  font-weight: 600;
+
+  transition: 0.1s;
+}
+
+.contact-banner .contact button:hover {
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+}
