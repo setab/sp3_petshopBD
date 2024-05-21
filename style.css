@@ -47,7 +47,7 @@ nav {
 }
 .items ul li a:hover {
   padding-bottom: 5px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid aqua;
 }
 .banner {
   width: 70%;
@@ -143,6 +143,7 @@ nav {
   text-transform: uppercase;
   margin: 20px 0px;
   border-bottom: 2px solid whitesmoke;
+  color: aqua;
 }
 .about_info {
   display: grid;
@@ -174,6 +175,15 @@ nav {
   background-size: contain;
 }
 
+.about_banner .about_des .progress-1 h5 span {
+  font-size: 20px;
+  padding-left: 230px;
+}
+.about_banner .about_des .progress-2 h5 span {
+  font-size: 20px;
+  padding-left: 170px;
+}
+
 /* progress begains */
 .progress-1 {
   margin-top: 50px;
@@ -181,23 +191,17 @@ nav {
   height: 10px;
   border: 2px solid white;
 }
-.progress-bar-1 {
-  margin-top: 5px;
-  width: 400px;
-  height: 10px;
-  border: 2px solid rgb(106, 166, 255);
-  background-color: aqua;
-}
-
 .progress-2 {
   margin-top: 50px;
   width: 400px;
   height: 10px;
   border: 2px solid white;
 }
+
+.progress-bar-1,
 .progress-bar-2 {
   margin-top: 5px;
-  width: 400px;
+  width: 0px;
   height: 10px;
   border: 2px solid rgb(106, 166, 255);
   background-color: aqua;
@@ -210,19 +214,9 @@ nav {
   width: 70%;
   height: 800px;
 }
-.cat_banner h1 {
-  text-align: center;
-  font-size: 40px;
-  text-transform: uppercase;
-  margin: 20px 0px;
-  border-bottom: 2px solid whitesmoke;
-}
 .cat_info {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-gap: 10px; */
-  /* grid-template-columns: auto;
-  grid-template-rows: auto auto; */
   border: 2px solid white;
   width: 100%;
   height: 700px;
@@ -239,7 +233,7 @@ nav {
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
-  /* border: 2px solid white; */
+  color: aqua;
 }
 .cat_info .cat_des p {
   padding-top: 30px;
@@ -256,17 +250,9 @@ nav {
 
 /* dog start */
 .dog_banner {
-  /* border: 2px solid white; */
   margin-top: 80px;
   width: 70%;
   height: 800px;
-}
-.dog_banner h1 {
-  text-align: center;
-  font-size: 40px;
-  text-transform: uppercase;
-  margin: 20px 0px;
-  border-bottom: 2px solid whitesmoke;
 }
 .dog_info {
   display: grid;
@@ -287,7 +273,7 @@ nav {
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
-  /* border: 2px solid white; */
+  color: aqua;
 }
 .dog_info .cat_des p {
   padding-top: 30px;
@@ -317,6 +303,7 @@ nav {
   text-transform: uppercase;
   margin: 20px 0px;
   border-bottom: 2px solid whitesmoke;
+  color: aqua;
 }
 .our_animal_pics {
   border: 2px solid white;
@@ -356,8 +343,6 @@ nav {
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-
-  /* margin: 10px; */
 }
 .footer .footer-banner .logo p {
   font-size: 18px;
